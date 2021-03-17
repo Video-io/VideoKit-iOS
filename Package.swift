@@ -36,8 +36,8 @@ let package = Package(
         // swift package compute-checksum VideoKit-1.0.3.zip
         .binaryTarget(
             name: "VideoKitCore",
-            url: "https://cdn.video.io/ios/\(version)/VideoKitCore.xcframework.zip?ignoreCache=2",
-            checksum: "3992fd827d3f3b8f142e755fa6bbd5c416c1d8d66691dd931b815448699c7f2a"
+            url: "https://cdn.video.io/ios/\(version)/VideoKitCore.xcframework.zip?ignoreCache=1",
+            checksum: "db1f8a1e313b5bb30a6608c3c866e3fe71ca42b5cda60754453b8ec1b0b5d8e9"
         ),
         .target(
               name: "VideoKitCoreWrapper",
@@ -51,18 +51,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "VideoKitPlayer",
-            url: "https://cdn.video.io/ios/\(version)/VideoKitPlayer.xcframework.zip?ignoreCache=2",
-            checksum: "732cdab2ebe07677d91c60c4fb7b46d237064f6891e0d1d688a50ad4b42de703"
+            url: "https://cdn.video.io/ios/\(version)/VideoKitPlayer.xcframework.zip?ignoreCache=1",
+            checksum: "adfe18128fa829d32492b2cb8379c9b2cd0e245ad1cf5bdf4e1ac81ee1e5d30a"
         ),
         .binaryTarget(
             name: "VideoKitRecorder",
-            url: "https://cdn.video.io/ios/\(version)/VideoKitRecorder.xcframework.zip?ignoreCache=2",
-            checksum: "34af84cb08d4a2ac6f2ab0e7b118449f3b8f42b614b20adee379351ea4e960d9"
+            url: "https://cdn.video.io/ios/\(version)/VideoKitRecorder.xcframework.zip?ignoreCache=1",
+            checksum: "a3465758fb8350d06c1007b4e855452af2c5ebd9ef0e6a705fd9eb9f6d42c6f9"
         ),
         .binaryTarget(
             name: "VideoKitLive",
-            url: "https://cdn.video.io/ios/\(version)/VideoKitLive.xcframework.zip?ignoreCache=2",
-            checksum: "c9c645f982da2cb26cc2b0641359ec1ba6dc8dea7fd67f0bd8330e097180bf0d"
+            url: "https://cdn.video.io/ios/\(version)/VideoKitLive.xcframework.zip?ignoreCache=1",
+            checksum: "6cccee34285ffcd393b524ff31c6e113561af2564d0bc786772df02dd8635813"
         ),
         .target(
             name: "VideoKitLiveWrapper",
