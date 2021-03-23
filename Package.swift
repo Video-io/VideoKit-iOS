@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "1.0.10"
+let version = "1.0.11"
 
 let package = Package(
     name: "VideoKit",
@@ -37,7 +37,7 @@ let package = Package(
         .binaryTarget(
             name: "VideoKitCore",
             url: "https://cdn.video.io/ios/\(version)/VideoKitCore.xcframework.zip?ignoreCache=1",
-            checksum: "db1f8a1e313b5bb30a6608c3c866e3fe71ca42b5cda60754453b8ec1b0b5d8e9"
+            checksum: "bd888afea2dcb9f3246c08e618203732efedd34309bb7082e3f3479e30cef81f"
         ),
         .target(
               name: "VideoKitCoreWrapper",
@@ -52,17 +52,17 @@ let package = Package(
         .binaryTarget(
             name: "VideoKitPlayer",
             url: "https://cdn.video.io/ios/\(version)/VideoKitPlayer.xcframework.zip?ignoreCache=1",
-            checksum: "adfe18128fa829d32492b2cb8379c9b2cd0e245ad1cf5bdf4e1ac81ee1e5d30a"
+            checksum: "a49cb432001dc72754cac52301ce6c3b52412194af2a9b0e65fce07bb0841904"
         ),
         .binaryTarget(
             name: "VideoKitRecorder",
             url: "https://cdn.video.io/ios/\(version)/VideoKitRecorder.xcframework.zip?ignoreCache=1",
-            checksum: "a3465758fb8350d06c1007b4e855452af2c5ebd9ef0e6a705fd9eb9f6d42c6f9"
+            checksum: "89c05a18841e4c668b27c4cdf1371b9746ac8178786c7d5ddf88da867523c244"
         ),
         .binaryTarget(
             name: "VideoKitLive",
             url: "https://cdn.video.io/ios/\(version)/VideoKitLive.xcframework.zip?ignoreCache=1",
-            checksum: "6cccee34285ffcd393b524ff31c6e113561af2564d0bc786772df02dd8635813"
+            checksum: "f4ee3b6e488aa082fab8f626b491db6e9b57ab718a4d1df70029546c39e223d7"
         ),
         .target(
             name: "VideoKitLiveWrapper",
