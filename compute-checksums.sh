@@ -30,4 +30,4 @@ sed -i '' "s/__PLAYER_CHECKSUM__/${VK_PLAYER}/g" Package.swift
 sed -i '' "s/__RECORDER_CHECKSUM__/${VK_RECORDER}/g" Package.swift
 sed -i '' "s/__LIVE_CHECKSUM__/${VK_LIVE}/g" Package.swift
 
-# git commit Package.swift -m "checksum update" && git push
+echo "Done. Release using the following command: git commit Package.swift -m \"checksum update\" && git tag $2 && git push --tags"
