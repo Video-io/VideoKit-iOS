@@ -36,7 +36,7 @@ let package = Package(
         // swift package compute-checksum VideoKit-1.0.3.zip
         .binaryTarget(
             name: "VideoKitCore",
-            url: "https://cdn.video.io/ios/\(version)/VideoKitCore.xcframework.zip?ignoreCache=1",
+            url: "https://cdn.video.io/ios/\(version)/VideoKitCore.xcframework.zip?ignoreCache=2",
             checksum: "90c4eb5a2aca8232799eb9c4092626ca886e54c87f1a64f93c888b005eb42afb"
         ),
         .target(
@@ -51,17 +51,17 @@ let package = Package(
         ),
         .binaryTarget(
             name: "VideoKitPlayer",
-            url: "https://cdn.video.io/ios/\(version)/VideoKitPlayer.xcframework.zip?ignoreCache=1",
+            url: "https://cdn.video.io/ios/\(version)/VideoKitPlayer.xcframework.zip?ignoreCache=2",
             checksum: "0c205699ad4de85f19b0352feec2568b14bf54d38f84403ab969aa296bba6db8"
         ),
         .binaryTarget(
             name: "VideoKitRecorder",
-            url: "https://cdn.video.io/ios/\(version)/VideoKitRecorder.xcframework.zip?ignoreCache=1",
+            url: "https://cdn.video.io/ios/\(version)/VideoKitRecorder.xcframework.zip?ignoreCache=2",
             checksum: "29204e26fe69ac3ad7d1462413f8c0607a94e4d592901a1f832a0eebfb025655"
         ),
         .binaryTarget(
             name: "VideoKitLive",
-            url: "https://cdn.video.io/ios/\(version)/VideoKitLive.xcframework.zip?ignoreCache=1",
+            url: "https://cdn.video.io/ios/\(version)/VideoKitLive.xcframework.zip?ignoreCache=2",
             checksum: "33a1314e4c60c2373535eea8ea6120be977565bbc1c3f795a5224a2f8ecde8ca"
         ),
         .target(
