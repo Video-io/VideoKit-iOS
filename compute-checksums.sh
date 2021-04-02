@@ -12,6 +12,7 @@ if [ "$2" = "" ]; then
   exit 1
 fi
 
+COMMIT_HASH=`git --git-dir="${1}/../.git" rev-parse --short --verify HEAD`
 VERSION="${2}"
 VK_CORE="`swift package compute-checksum \"$1/VideoKitCore.xcframework.zip\"`"
 VK_RECORDER="`swift package compute-checksum \"$1/VideoKitRecorder.xcframework.zip\"`"
@@ -25,6 +26,7 @@ echo "Live: $VK_LIVE"
 
 cp Package.template.swift Package.swift
 sed -i '' "s/__VIDEOKIT_VERSION__/${VERSION}/g" Package.swift
+sed -i '' "s/__COMMIT_HASH__/${COMMIT_HASH}/g" Package.swift
 sed -i '' "s/__CORE_CHECKSUM__/${VK_CORE}/g" Package.swift
 sed -i '' "s/__PLAYER_CHECKSUM__/${VK_PLAYER}/g" Package.swift
 sed -i '' "s/__RECORDER_CHECKSUM__/${VK_RECORDER}/g" Package.swift
