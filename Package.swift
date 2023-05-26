@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "1.3.0-rc01"
+let version = "1.3.0-rc02"
 
 let package = Package(
     name: "VideoKit",
@@ -31,17 +31,17 @@ let package = Package(
         .binaryTarget(
             name: "VideoKitCore",
             url: "https://cdn.video.io/ios/\(version)/VideoKitCore.xcframework.zip?ignoreCache=1",
-            checksum: "0701781b5efe59e69acc285da726ee36ac80debb789befebcf2d8d3509976356"
+            checksum: "51d5d1e0b33ba64b7ed8a6a3cfe9960baeeb4a75caeff300bfcf68187abdf46f"
         ),
         .binaryTarget(
             name: "VideoKitPlayer",
             url: "https://cdn.video.io/ios/\(version)/VideoKitPlayer.xcframework.zip?ignoreCache=1",
-            checksum: "9883a06957697c544589aa38315869710508858e0043fc113f17f61b2b633958"
+            checksum: "e760360dc653522c6bb3b81a9534b7a17ce7fb03f49cca39e488e6c990cc65af"
         ),
         .binaryTarget(
             name: "VideoKitRecorder",
             url: "https://cdn.video.io/ios/\(version)/VideoKitRecorder.xcframework.zip?ignoreCache=1",
-            checksum: "1c587bd61507d82c9410a69e9451c4adf6971d85859611002df142b93fc11548"
+            checksum: "6731ff0ef173e1cc0a0355eee0f55ff50aac2964653efce1dc18e8e644caac94"
         ),
     ]
 )
